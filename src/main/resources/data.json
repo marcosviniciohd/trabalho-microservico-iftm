@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "1",
+    "bio": "Desenvolvedor Java",
+    "avatarUrl": "http://example.com/avatar.jpg",
+    "_class": "br.com.relacionamento.no.sql.models.Perfil"
+  },
+  {
+    "_id": "1",
+    "nome": "João Silva",
+    "perfil": {
+      "$ref": "perfis",
+      "$id": "1"
+    },
+    "_class": "br.com.relacionamento.no.sql.models.Usuario"
+  },
+    {
+        "_id": "2",
+        "nome": "Maria Souza",
+        "perfil": {
+        "$ref": "perfis",
+        "$id": "1"
+        },
+        "_class": "br.com.relacionamento.no.sql.models.Usuario"
+    },
+    {
+        "_id": "3",
+        "nome": "José Santos",
+        "perfil": {
+        "$ref": "perfis",
+        "$id": "1"
+        },
+        "_class": "br.com.relacionamento.no.sql.models.Usuario"
+    },
+    {
+        "_id": "4",
+        "nome": "Ana Oliveira",
+        "perfil": {
+        "$ref": "perfis",
+        "$id": "1"
+        },
+        "_class": "br.com.relacionamento.no.sql.models.Usuario"
+    },
+    {
+        "_id": "5",
+        "nome": "Pedro Pereira",
+        "perfil": {
+        "$ref": "perfis",
+        "$id": "1"
+        },
+        "_class": "br.com.relacionamento.no.sql.models.Usuario"
+    }
+]

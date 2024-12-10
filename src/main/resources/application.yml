@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:root@cluster0.ildju.mongodb.net/
+      database: relacionamentos
+      auto-index-creation: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
